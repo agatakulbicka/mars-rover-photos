@@ -7,7 +7,6 @@ import {
 import {requestData, receiveData, catchErrors} from '../../shared/actions';
 
 function fetchRoverManifest(roverName) {
-    console.log("SLKADKASadLDKasdKS:", roverName)
    return dispatch => {
        dispatch(requestData(REQUEST_ROVER_MANIFEST));
        fetch(MANIFEST_URL(roverName))

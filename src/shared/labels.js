@@ -14,6 +14,10 @@ export const roverNames = {
 };
 
 const commonAllCameras = {
+    all: {
+        id: 'all',
+        value: 'All'
+    },
     FHAZ: {
         id: 'FHAZ',
         value: 'Front Hazard Avoidance Camera'
@@ -25,7 +29,7 @@ const commonAllCameras = {
     NAVCAM: {
         id: 'NAVCAM',
         value: 'Navigation Camera'
-    }    
+    }   
 };
 
 const commonOppSpirCameras = {
@@ -67,4 +71,14 @@ export const roverCameras = {
         ...commonAllCameras,
         ...commonOppSpirCameras
     }
-}
+};
+
+export const manifestFields = {
+    landing_date: 'Landing date',
+    launch_date: 'Launch date',
+    max_date: 'Last photo from (earth date)',
+    max_sol: 'Last photo from (sol date)',
+    status: 'Rover status',
+    total_photos: 'All rover photos',
+    name: 'Rover name'
+};
