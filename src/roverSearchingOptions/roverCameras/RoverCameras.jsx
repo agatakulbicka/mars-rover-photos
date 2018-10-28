@@ -2,8 +2,7 @@ import {object, func, string} from 'prop-types';
 import React from 'react';
 import {roverNames} from '../shared/labels';
 
-function RoverSelect({getSelectedRover, selectedRover}) {
-    console.log("Aasdasdsdsdsdsdsd",roverNames, selectedRover )
+function RoverCameras({getSelectedRover, selectedRover}) {
     return (
         <select onChange={event => getSelectedRover(event.target.value)}
         >{Object.values(roverNames)
