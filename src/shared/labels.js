@@ -15,27 +15,27 @@ export const roverNames = {
 
 const commonAllCameras = {
     FHAZ: {
-        abbr: 'FHAZ',
-        fullName: 'Front Hazard Avoidance Camera'
+        id: 'FHAZ',
+        value: 'Front Hazard Avoidance Camera'
     },
     RHAZ: {
-        abbr: 'RHAZ',
-        fullName: 'Rear Hazard Avoidance Camera',
+        id: 'RHAZ',
+        value: 'Rear Hazard Avoidance Camera',
     },
     NAVCAM: {
-        abbr: 'NAVCAM',
-        fullName: 'Navigation Camera'
+        id: 'NAVCAM',
+        value: 'Navigation Camera'
     }    
 };
 
 const commonOppSpirCameras = {
     PANCAM: {
-        abbr: 'PANCAM',
-        fullName: 'Panoramic Camera'
+        id: 'PANCAM',
+        value: 'Panoramic Camera'
     },
     MINITES: {
-        abbr: 'MINITES',
-        fullName: 'Miniature Thermal Emission Spectrometer (Mini-TES)'
+        id: 'MINITES',
+        value: 'Miniature Thermal Emission Spectrometer (Mini-TES)'
     }
 }
 
@@ -43,20 +43,20 @@ export const roverCameras = {
     curiousity: {
         ...commonAllCameras,
         MAST: {
-            abbr: 'MAST',
-            fullName: 'Mast Camera'
+            id: 'MAST',
+            value: 'Mast Camera'
         },
         CHEMCAM: {
-            abbr: 'CHEMCAM',
-            fullName: 'Chemistry and Camera Complex'
+            id: 'CHEMCAM',
+            value: 'Chemistry and Camera Complex'
         },
         MAHLI: {
-            abbr: 'MAHLI',
-            fullName: 'Mars Hand Lens Imager'
+            id: 'MAHLI',
+            value: 'Mars Hand Lens Imager'
         },
         MARDI: {
-            abbr: 'MARDI',
-            fullName: 'Mars Descent Imager'
+            id: 'MARDI',
+            value: 'Mars Descent Imager'
         }
     },
     opportunity: {

@@ -1,3 +1,4 @@
-import {getSelectedRover} from './getSelectedRover';
+import {changeSelectedRover} from './changeSelectedRover';
+import {changeSelectedCamera} from './changeSelectedCamera';
 
-export {getSelectedRover};
+export {changeSelectedRover, changeSelectedCamera};
