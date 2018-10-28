@@ -1,6 +1,6 @@
 export const roverNames = {
-    curiousity: {
-        value: 'Curiousity',
+    curiosity: {
+        value: 'Curiosity',
         id: 1
     },
     opportunity: {
@@ -40,7 +40,7 @@ const commonOppSpirCameras = {
 }
 
 export const roverCameras = {
-    curiousity: {
+    curiosity: {
         ...commonAllCameras,
         MAST: {
             id: 'MAST',

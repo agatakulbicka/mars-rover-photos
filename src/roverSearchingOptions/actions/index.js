@@ -1,4 +1,9 @@
 import {changeSelectedRover} from './changeSelectedRover';
 import {changeSelectedCamera} from './changeSelectedCamera';
+import fetchRoverManifest from './fetchRoverManifest';
 
-export {changeSelectedRover, changeSelectedCamera};
+export {
+    changeSelectedCamera,
+    changeSelectedRover,
+    fetchRoverManifest
+};
