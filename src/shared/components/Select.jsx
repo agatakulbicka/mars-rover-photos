@@ -20,6 +20,6 @@ Select.propTypes = {
     baseClassName: string,
     onChangeHandler: func,
     selectOptions: object
-}
+};
 
 export default Select;

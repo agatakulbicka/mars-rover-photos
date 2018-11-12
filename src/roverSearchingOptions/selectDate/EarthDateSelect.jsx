@@ -1,20 +1,23 @@
-import {bool, number, string} from 'prop-types';
+import {bool, func, string} from 'prop-types';
 import React from 'react';
 
-function EarthDateSelect({endDate, isFetchingManifest, startDate}) {
+function EarthDateSelect({actionType, endDate, isFetchingManifest, startDate, onChangeHandler}) {
     return (
         <input 
             type="date" 
             disabled={isFetchingManifest}
             min={startDate}
             max={endDate}
+            onChange={event => onChangeHandler(actionType, 'date', event.target.value)}
             />
     );
 };
 
 EarthDateSelect.propTypes = {
+    actionType: string,
     isFetchingManifest: bool,
     endDate: string,
+    onChangeHandler: func,
     startDate: string
 };
 

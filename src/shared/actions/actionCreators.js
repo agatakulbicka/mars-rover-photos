@@ -17,3 +17,13 @@ export function catchErrors(actionType = '', errors) {
         errors
     }
 }
+
+export function changeSingleData(actionType='', fieldName, data) {
+    console.log("A:LSKD:LAKSDK:LA", actionType, fieldName, data)
+    return {
+        type: actionType,
+        data: {
+            [fieldName]: data
+        }
+    }
+}

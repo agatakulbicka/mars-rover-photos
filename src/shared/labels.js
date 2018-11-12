@@ -82,3 +82,14 @@ export const manifestFields = {
     total_photos: 'All rover photos',
     name: 'Rover name'
 };
+
+export const dateTypes = {
+    earth_date: {
+        id: 'earth_date',
+        value: 'earth time'
+    },
+    sol: {
+        id: 'sol',
+        value: 'sol time'
+    }
+};
