@@ -6,9 +6,6 @@ import {getSelectedItemId} from '../../shared/utils';
         switch (action.type) {
             case CHANGE_SELECTED_EARTH_DATE:
                 return action.data.date
-                // TODO need to count
-            // case CHANGE_SELECTED_SOL_DATE:
-            //     return action.data.date
             default:
                 return state
         }
@@ -17,12 +14,7 @@ import {getSelectedItemId} from '../../shared/utils';
 export function selectedSolDate(state = '', action) {
     switch (action.type) {
         case CHANGE_SELECTED_SOL_DATE:
-        console.log("SOLDASDASD", action)
-
             return action.data.date
-            // TODO need to count
-        // case CHANGE_SELECTED_EARTH_DATE:
-        //     return action.data.date
         default:
             return state
     }

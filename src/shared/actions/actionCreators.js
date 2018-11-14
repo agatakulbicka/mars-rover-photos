@@ -19,7 +19,6 @@ export function catchErrors(actionType = '', errors) {
 }
 
 export function changeSingleData(actionType='', fieldName, data) {
-    console.log("A:LSKD:LAKSDK:LA", actionType, fieldName, data)
     return {
         type: actionType,
         data: {
